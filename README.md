@@ -357,13 +357,6 @@ npm start
 - **Validators**: Define input validation schemas
 - **Middlewares**: Handle cross-cutting concerns
 
-### Adding New Features
-
-1. Create validation schema in `validators/`
-2. Add business logic in `services/`
-3. Create controller methods in `controllers/`
-4. Define routes in `routes/`
-5. Update documentation
 
 ## API Response Standards
 
