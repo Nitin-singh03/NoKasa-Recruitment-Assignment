@@ -105,10 +105,7 @@ NoKasa Recruitment/
 
 3. **Configure environment**
 
-   ```bash
-   cp .env.example .env
-   # Edit .env with your configuration
-   ```
+   Create a `.env` file with the required variables (see Environment Variables section)
 
 4. **Start the application**
 
@@ -127,12 +124,14 @@ Create a `.env` file in the root directory:
 ```env
 # Server Configuration
 PORT=5000
+NODE_ENV=development
+
+# Rate Limiting Configuration
+RATE_LIMIT_WINDOW_MS=900000
+RATE_LIMIT_MAX=200
 
 # Security Configuration
 SALT_ROUNDS=10
-
-# Logging Configuration
-LOG_LEVEL=info
 ```
 
 ## API Documentation
@@ -356,14 +355,6 @@ npm start
 - **Models**: Define data structure and normalization
 - **Validators**: Define input validation schemas
 - **Middlewares**: Handle cross-cutting concerns
-
-### Adding New Features
-
-1. Create validation schema in `validators/`
-2. Add business logic in `services/`
-3. Create controller methods in `controllers/`
-4. Define routes in `routes/`
-5. Update documentation
 
 ## API Response Standards
 
