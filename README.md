@@ -41,7 +41,7 @@ A Node.js REST API application with dual user management systems supporting both
 - **Duplicate Prevention**: Unique constraint enforcement
 - **Data Validation**: Input format validation and sanitization
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Runtime**: Node.js (ES Modules)
 - **Framework**: Express.js
