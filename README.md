@@ -1,5 +1,11 @@
 # NoKasa Recruitment Assignment
 
+<div align="center">
+  <img src="https://nokasa.co/logo.svg" alt="NoKasa Logo" width="200" height="auto">
+  <br>
+  <a href="https://nokasa.co">Visit NoKasa</a>
+</div>
+
 A Node.js REST API application with dual user management systems supporting both email and phone-based user registration.
 
 ## Table of Contents
@@ -385,5 +391,9 @@ npm start
 ## 👨‍💻 Author
 
 **Nitin Singh**
+
+## Company
+
+This project is part of the recruitment process for [NoKasa](https://nokasa.co).
 
 ---
